@@ -12,11 +12,11 @@ Manually created fonts of the
 ## Manual creation process
 ### Get resources
 1. Download latest release from https://github.com/microsoft/fluentui-system-icons
-1. Download latest release from https://github.com/EnnoxHD/fluentui-system-icons-extractor
-  - edit `src/main/java/com/github/ennoxhd/fluentui/extractor/app/FluentUiResources.java`
-    - change `resources` variable
-    - change `output` variable if needed
-  - use command `gradlew run` in the root folder of `fluentui-system-icons-extractor`
+2. Download latest release from https://github.com/EnnoxHD/fluentui-system-icons-extractor
+    - edit `src/main/java/com/github/ennoxhd/fluentui/extractor/app/FluentUiResources.java`
+        - change `resources` variable
+        - change `output` variable if needed
+    - use command `gradlew run` in the root folder of `fluentui-system-icons-extractor`
 
 ### Generate fonts
 The following description will lead to the generation of **4 fonts** in total:
@@ -26,39 +26,39 @@ The following description will lead to the generation of **4 fonts** in total:
 - `FluentUI System Icons Regular Monochrome`
 
 1. Go to https://icomoon.io/app/#/projects
-1. `New project`: `FluentUI System Icons`
-1. `Import Icons`: Select all svg files of type **[filled / regular]**
-1. Hamburger menu icon: `Select all icons`
-1. Color Palette:
-  - **color**: skip this
-  - **monochrome**: `Color Themes -> Delete`
-1. `Generate Font`
-1. `Preferences`:
-  - `Font Name`:
-    - `FluentUI System Icons Filled Color`
-    - `FluentUI System Icons Filled Monochrome`
-    - `FluentUI System Icons Regular Color`
-    - `FluentUI System Icons Regular Monochrome`
-  - `Class Prefix`: `flt-`
-  - `Metadata`:
-    - `URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font`
-    - `Description`: `Fluent System Icons are a collection of familiar,
-       friendly and modern icons from Microsoft.`
-    - `Copyright`: `Copyright (c) 2020 EnnoxHD`
-    - `Designer`: `Microsoft Corporation`
-    - `Designer's URL`: `https://github.com/microsoft/fluentui-system-icons`
-    - `License`: `MIT License`
-    - `License URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font/blob/master/LICENSE`
-  - `Version`:
-    - `Major`: `1` (according to the current release)
-    - `Minor`: `1` (according to the current release)
-1. `Reset -> Reset Codes`: `e000`, `Reset Codes`
-1. `Download`
-1. Copy the contents of the `zip` files to their appropriate location
-  - `FluentUI System Icons Filled Color`: `fluentui-system-icons-font/fonts/color/filled`
-  - `FluentUI System Icons Filled Monochrome`: `fluentui-system-icons-font/fonts/monochrome/filled`
-  - `FluentUI System Icons Regular Color`: `fluentui-system-icons-font/fonts/color/regular`
-  - `FluentUI System Icons Regular Monochrome`: `fluentui-system-icons-font/fonts/monochrome/regular`
+2. `New project`: `FluentUI System Icons`
+3. `Import Icons`: Select all svg files of type **[filled / regular]**
+4. Hamburger menu icon: `Select all icons`
+5. Color Palette:
+    - **color**: skip this
+    - **monochrome**: `Color Themes -> Delete`
+6. `Generate Font`
+7. `Preferences`:
+    - `Font Name`:
+      - `FluentUI System Icons Filled Color`
+      - `FluentUI System Icons Filled Monochrome`
+      - `FluentUI System Icons Regular Color`
+      - `FluentUI System Icons Regular Monochrome`
+    - `Class Prefix`: `flt-`
+    - `Metadata`:
+      - `URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font`
+      - `Description`: `Fluent System Icons are a collection of familiar,
+        friendly and modern icons from Microsoft.`
+      - `Copyright`: `Copyright (c) 2020 EnnoxHD`
+      - `Designer`: `Microsoft Corporation`
+      - `Designer's URL`: `https://github.com/microsoft/fluentui-system-icons`
+      - `License`: `MIT License`
+      - `License URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font/blob/master/LICENSE`
+    - `Version`:
+      - `Major`: `1` (according to the current release)
+      - `Minor`: `1` (according to the current release)
+8. `Reset -> Reset Codes`: `e000`, `Reset Codes`
+9. `Download`
+10. Copy the contents of the `zip` files to their appropriate location
+    - `FluentUI System Icons Filled Color`: `fluentui-system-icons-font/fonts/color/filled`
+    - `FluentUI System Icons Filled Monochrome`: `fluentui-system-icons-font/fonts/monochrome/filled`
+    - `FluentUI System Icons Regular Color`: `fluentui-system-icons-font/fonts/color/regular`
+    - `FluentUI System Icons Regular Monochrome`: `fluentui-system-icons-font/fonts/monochrome/regular`
 
 ### Release
 The release gets a tag name consisting of the current
