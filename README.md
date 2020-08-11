@@ -1,7 +1,7 @@
 # fluentui-system-icons-font
 Manually created fonts of the
 [FluentUI System Icons](https://github.com/microsoft/fluentui-system-icons)
-([MIT License](https://github.com/EnnoxHD/fluentui-system-icons-font/blob/master/LICENSE)).
+([MIT License](https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE)).
 
 ## Provided fonts
 - `FluentUI System Icons Filled Color`
