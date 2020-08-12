@@ -4,10 +4,10 @@ Manually created fonts of the
 ([MIT License](https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE)).
 
 ## Provided fonts
-- `FluentUI System Icons Filled Color`
-- `FluentUI System Icons Filled Monochrome`
-- `FluentUI System Icons Regular Color`
-- `FluentUI System Icons Regular Monochrome`
+- `FluentUI Filled Color`
+- `FluentUI Filled Monochrome`
+- `FluentUI Regular Color`
+- `FluentUI Regular Monochrome`
 
 ## Manual creation process
 ### Get resources
@@ -20,10 +20,10 @@ Manually created fonts of the
 
 ### Generate fonts
 The following description will lead to the generation of **4 fonts** in total:
-- `FluentUI System Icons Filled Color`
-- `FluentUI System Icons Filled Monochrome`
-- `FluentUI System Icons Regular Color`
-- `FluentUI System Icons Regular Monochrome`
+- `FluentUI Filled Color`
+- `FluentUI Filled Monochrome`
+- `FluentUI Regular Color`
+- `FluentUI Regular Monochrome`
 
 1. Go to https://icomoon.io/app/#/projects
 2. `New project`: `FluentUI System Icons`
@@ -34,11 +34,11 @@ The following description will lead to the generation of **4 fonts** in total:
     - **monochrome**: `Color Themes -> Delete`
 6. `Generate Font`
 7. `Preferences`:
-    - `Font Name`:
-      - `FluentUI System Icons Filled Color`
-      - `FluentUI System Icons Filled Monochrome`
-      - `FluentUI System Icons Regular Color`
-      - `FluentUI System Icons Regular Monochrome`
+      - `Font Name`:
+      - `FluentUI Filled Color`
+      - `FluentUI Filled Monochrome`
+      - `FluentUI Regular Color`
+      - `FluentUI Regular Monochrome`
     - `Class Prefix`: `flt-`
     - `Metadata`:
       - `URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font`
