@@ -35,10 +35,10 @@ The following description will lead to the generation of **4 fonts** in total:
 6. `Generate Font`
 7. `Preferences`:
       - `Font Name`:
-      - `FluentUI Filled Color`
-      - `FluentUI Filled Monochrome`
-      - `FluentUI Regular Color`
-      - `FluentUI Regular Monochrome`
+        - `FluentUI Filled Color`
+        - `FluentUI Filled Monochrome`
+        - `FluentUI Regular Color`
+        - `FluentUI Regular Monochrome`
     - `Class Prefix`: `flt-`
     - `Metadata`:
       - `URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font`
