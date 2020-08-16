@@ -39,7 +39,11 @@ The following description will lead to the generation of **4 fonts** in total:
         - `FluentUI Filled Monochrome`
         - `FluentUI Regular Color`
         - `FluentUI Regular Monochrome`
-    - `Class Prefix`: `flt-`
+    - `Class Prefix`:
+        - `flt-fc-`
+        - `flt-fm-`
+        - `flt-rc-`
+        - `flt-rm-`
     - `Metadata`:
       - `URL`: `https://github.com/EnnoxHD/fluentui-system-icons-font`
       - `Description`: `Fluent System Icons are a collection of familiar,
