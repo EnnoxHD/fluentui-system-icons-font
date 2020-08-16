@@ -12,6 +12,7 @@ Manually created fonts of the
 ## Manual creation process
 ### Get resources
 1. Download latest release from https://github.com/microsoft/fluentui-system-icons
+    - extract archive
 2. Download latest release from https://github.com/EnnoxHD/fluentui-system-icons-extractor
     - edit `src/main/java/com/github/ennoxhd/fluentui/extractor/app/FluentUiResources.java`
         - change `resources` variable
